@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Space+Mono:400,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;;
+  background-color: #DCDCDC;
+}
+
+.rufina {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+.oxygen {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* Start of Header */
+
+header {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  border-bottom: 2px solid #003249;
+  position: fixed;
+  background-color: #FFFFFF;
+}
+
+.logo {
+  display: flex;
+}
+
+.colmar {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.academy {
+  text-transform: uppercase;
+  color: #003249;
+}
+
+a {
+  color: #003249;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#desktop {
+  display: block;
+}
+
+#desktop a {
+  margin-left: 16px;
+  font-weight: bold;
+}
+
+#mobile {
+  display: none;
+}
+
+/* End of Header*/
+/*Start of 1st section: Learn */
+
+#learn {
+  background-color: #FFFFFF;
+  padding: 32px 24px;
+  display: flex;
+  border-bottom: 2px solid #003249;
+}
+
+#learn h1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2rem;
+  line-height: 1.8rem;
+  font-weight: bold;
+}
+
+#learn h2 {
+  font-size: 1rem;
+  margin: 32px 0 24px 0;
+}
+
+button {
+  background-color: #003249;
+  color: #FFFFFF;
+  border: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1rem;
+  padding: 8px 0;
+  border: 2px solid #003249;
+}
+
+button:hover {
+  background-color: #DCDCDC;
+  color: #003249;
+  font-weight: bold;
+}
+
+.container-img-header {
+  width: 60%;
+  height: auto;
+}
+
+.img-header {
+  width: 100%;
+  height: auto;
+}
+
+.container-learn {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+/* End of 1st section Learn */
+/* Start of 2nd section: Practice */
+
+#practice {
+  display: flex;
+}
+
+#practice h1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2rem;
+  line-height: 1.8rem;
+  margin: 32px 0 24px 0;
+  font-weight: bold;
+}
+
+#practice h3 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+#practice h4 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 0.8rem;
+  margin: 8px 0;
+}
+
+#practice a {
+  text-decoration: underline;
+}
+
+#practice a:hover {
+  text-decoration: none;
+}
+
+.main-container-practice {
+  padding: 32px 24px;
+  border-right: 1px solid #003249;
+  border-bottom: 2px solid #003249;
+}
+
+.practice-img-container {
+  width: 100%;
+  height: auto;
+}
+
+.img-practice {
+  width: 100%;
+  height: auto;
+}
+
+.quoted {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.info-container-practice  {
+  min-width: 423px;
+  border-bottom: 2px solid #003249;
+}
+
+.small-container-campus {
+  display: flex;
+  min-height: 168px;
+  border-bottom: 1px solid #003249;
+}
+
+.small-img-campus {
+  max-width: 33%;
+  height: auto;
+  margin: 16px;
+}
+
+.img-campus-info {
+  width: 100%;
+  height: auto;
+}
+
+.img-campus-info-mobile {
+  display: none;
+}
+
+.small-text {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.read {
+  color: #FFFFFF;
+}
+
+.blue {
+  background-color: #003249;
+  color: #DCDCDC;
+}
+
+/*End of 2nd section */
+/* Start of 3rd section Learning */
+
+#learning {
+  background-color: #FFFFFF;
+  padding-bottom: 16px;
+}
+
+#learning h1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2rem;
+  padding: 32px 0 16px 0;
+  text-align: center;
+  color: #003249;
+  font-weight: bold;
+}
+
+#learning h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.5rem;
+  margin: 16px 0;
+  color: #003249;
+}
+
+#learning h3 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+.main-container-courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+
+}
+
+.small-container-course {
+  background-color: #DCDCDC;
+  width: 30%;
+  margin: 16px;
+  padding-bottom: 24px;
+}
+
+.txt-small-container {
+  padding: 16px 16px;
+}
+
+.img-small-container {
+  width: 100%;
+  height: auto;
+}
+
+.course-img {
+  width: 100%;
+  height: auto;
+}
+
+/* End of 3rd section */
+/* Start of 4th section Thesis */
+
+#thesis {
+  border-top: 2px solid #003249;
+}
+
+#thesis h1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2rem;
+  padding: 32px 0;
+  text-align: center;
+  color: #003249;
+  font-weight: bold;
+}
+
+#thesis h3 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+#thesis h4 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 0.8rem;
+  margin: 8px 0;
+}
+
+.main-container-thesis {
+  width: 100%;
+  display: flex;
+  border-top: 2px solid #003249;
+}
+
+.thesis-vid {
+  height: auto;
+  width: 100%;
+  padding-left: 24px;
+}
+
+video {
+  height: auto;
+  width: 100%;
+}
+
+.thesis-vid-text {
+  margin: 24px 0 32px 24px;
+}
+
+.thesis-vid-text p {
+  margin-top: 16px;
+}
+
+.container-thesis-info {
+  min-width: 423px;
+  margin-left: 16px;
+}
+
+.small-container-thesis-info {
+  min-height: 168px;
+  display: flex;
+  align-items: center;
+}
+
+.thesis-img-container {
+  max-width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.thesis-img {
+  width: 100%;
+  height: auto;
+}
+
+.thesis-img-text {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+/* End of 4th section */
+/* Start of Footer */
+
+footer {
+  background-color: #FFFFFF;
+  color: #003249;
+  padding: 0 24px;
+  border-top: 2px solid #003249;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  display: block;
+  padding: 16px 0;
+}
+
+.links {
+}
+
+footer a {
+  display: inline-block;
+  margin: 16px 0 0 16px;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+.fa {
+  align-content: center;
+  padding-left: 4px;
+}
+.fa:hover {
+  text-decoration: underline;
+}
